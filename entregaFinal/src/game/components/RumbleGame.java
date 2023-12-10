@@ -112,6 +112,7 @@ public class RumbleGame {
         }
         if(round == 100) {
             loopGame = false;
+            //Empate
         }
     }
 

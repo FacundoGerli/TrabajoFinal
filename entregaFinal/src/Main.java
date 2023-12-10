@@ -31,7 +31,8 @@ public class Main {
                 new Spartan("Spartan 15"));
 
         //TODO ordenar el listado de monstruos que recibe el jugador uno
-        rumbleGame.getPlayerOne().setMonsters(monstersOne);
+       
+        rumbleGame.getPlayerOne().setMonsters(ordenar.ordenamientoPorVida(monstersOne));
 
         List<Monster> monstersTwo = Arrays.asList(new Spartan("Spartan A"),
                 new Wizard("Maguito"));

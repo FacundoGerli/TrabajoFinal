@@ -5,5 +5,11 @@ public enum Type {
     FIRE,
     DEMON,
     SWORD,
-    BEAST
+    BEAST,
+    //Nuevos tipos
+    POISON, 
+    MAGIC,
+    WINGS,
+    ELECTRIC,
+    SHIELD
 }

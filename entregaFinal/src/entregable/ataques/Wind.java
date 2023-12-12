@@ -7,7 +7,7 @@ import game.types.Type;
 public class Wind implements Wings {
     @Override
     public int damage(Monster monster) {
-        int damage = RandomGenerator.getInstance().calculateDamage(50, 100);
+        int damage = RandomGenerator.getInstance().calculateDamage(5, 10);
         if(monster.getTypes().contains(Type.FIRE)) {
             damage = damage * 2;
         }

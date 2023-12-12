@@ -10,7 +10,7 @@ public class ColdBreath implements Cold {
     public int damage(Monster monster) {
         int damage = RandomGenerator.getInstance().calculateDamage(90, 150);
         if(monster.getTypes().contains(Type.FIRE)) {
-            damage = damage * 2;
+            damage = damage * 3;
         }
         return damage;
     }
